@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  border: solid rgb(233, 222, 126) 4px;
+  margin: 10px;
+}
+
+label {
+  color: rgb(233, 222, 126);
+}

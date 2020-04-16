@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  border: solid orange 4px;
+  margin: 10px;
+}
+
+label {
+  color: orange;
+}
