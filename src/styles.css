@@ -13,3 +13,14 @@ label {
   font-weight: bold;
   margin-bottom: 8px;
 }
+
+.select-component-container {
+  width: 50%;
+  margin: auto;
+  border: solid 2px rgb(234, 0, 255);
+}
+
+.select-component-container select {
+  width: 100%;
+  margin: auto;
+}

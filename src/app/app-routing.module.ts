@@ -7,11 +7,6 @@ import { Compo1Component } from './compos/compo1/compo1.component';
 import * as M1 from './modules/M1/compos/allCompos';
 import * as M2 from './modules/M2/compos/allCompos';
 
-// import { M2Compo1Component } from './modules/M2/compos/compo1/compo1.component';
-// import { M2Compo0Component } from './modules/M2/compos/compo0/compo0.component';
-
-
-
 
 
 const routes: Routes = [
@@ -110,12 +105,12 @@ const routes: Routes = [
 
   { // Syntaxe URL : M2Module_compo0
     path: 'M2Module_compo0',
-    component: M2.M2Compo0Component  // Sera donc chargé dans le <router-outlet> sans name (de AppModule).
+    component: M2.Compo0Component  // Sera donc chargé dans le <router-outlet> sans name (de AppModule).
   },
 
   { // Syntaxe URL : (AppModule_router_outlet_2:M2Module_compo0_in_AppModule_router_outlet_2)
     path: 'M2Module_compo0_in_AppModule_router_outlet_2',
-    component: M2.M2Compo0Component,  // Sera donc chargé dans le <router-outlet> de name AppModule_router_outlet_2 (de AppModule).
+    component: M2.Compo0Component,  // Sera donc chargé dans le <router-outlet> de name AppModule_router_outlet_2 (de AppModule).
     outlet: 'AppModule_router_outlet_2'
   },
 
@@ -124,12 +119,12 @@ const routes: Routes = [
 
   { // Syntaxe URL : M2Module_compo1
     path: 'M2Module_compo1',
-    component: M2.M2Compo1Component  // Sera donc chargé dans le <router-outlet> sans name (de AppModule).
+    component: M2.Compo1Component  // Sera donc chargé dans le <router-outlet> sans name (de AppModule).
   },
 
   { // Syntaxe URL : (AppModule_router_outlet_2:M2Module_compo1_in_AppModule_router_outlet_2)
     path: 'M2Module_compo1_in_AppModule_router_outlet_2',
-    component: M2.M2Compo1Component,  // Sera donc chargé dans le <router-outlet> de name AppModule_router_outlet_2 (de AppModule).
+    component: M2.Compo1Component,  // Sera donc chargé dans le <router-outlet> de name AppModule_router_outlet_2 (de AppModule).
     outlet: 'AppModule_router_outlet_2'
   }
 

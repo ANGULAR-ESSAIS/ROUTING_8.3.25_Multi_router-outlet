@@ -2,6 +2,7 @@
   display: block;
   border: solid rgb(174, 233, 126) 4px;
   margin: 10px;
+  height: 200px;
 }
 
 label {

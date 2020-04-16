@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { M2Compo0Component } from './compos/compo0/compo0.component';
-import { M2Compo1Component } from './compos/compo1/compo1.component';
+import { Compo0Component } from './compos/compo0/compo0.component';
+import { Compo1Component } from './compos/compo1/compo1.component';
 
 
 const routes: Routes = [
@@ -16,7 +16,7 @@ const routes: Routes = [
 
   { // Syntaxe URL : (M2_router_outlet_1:M2Module_compo0_in_M2Module_router_outlet_1)
     path: 'M2Module_compo0_in_M2Module_router_outlet_1',
-    component: M2Compo0Component,  // Sera donc chargé dans le <router-outlet> de name M2_router_outlet_1 (de M2Module).
+    component: Compo0Component,  // Sera donc chargé dans le <router-outlet> de name M2_router_outlet_1 (de M2Module).
     outlet: 'M2_router_outlet_1'
   },
 
@@ -25,7 +25,7 @@ const routes: Routes = [
 
   { // Syntaxe URL : (M2_router_outlet_1:M2Module_compo1_in_M2Module_router_outlet_1)
     path: 'M2Module_compo1_in_M2Module_router_outlet_1',
-    component: M2Compo1Component,  // Sera donc chargé dans le <router-outlet> de name M2_router_outlet_1 (de M2Module).
+    component: Compo1Component,  // Sera donc chargé dans le <router-outlet> de name M2_router_outlet_1 (de M2Module).
     outlet: 'M2_router_outlet_1'
   }
 
